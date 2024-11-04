@@ -51,7 +51,7 @@ public class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    public func setRecordConfiguration () {
+    public func initialize () {
         
         let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
         fileName = UUID().uuidString + ".mp4"
@@ -336,7 +336,7 @@ extension RecordManager {
         videoRecordThread.async {
             switch self.captureStatus {
             case .idle:
-                self.setRecordConfiguration()
+                self.initialize()
                 break
             case .start:
                 self.startVideoRecording()
@@ -362,7 +362,7 @@ extension RecordManager {
         videoRecordThread.async {
             switch self.captureStatus {
             case .idle:
-                self.setRecordConfiguration()
+                self.initialize()
                 break
             case .start:
                 self.startVideoRecording()
