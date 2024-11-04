@@ -8,7 +8,7 @@
 import Foundation
 import AVFoundation
 
-public protocol RecordManangerProtocol {
+public protocol RecordManangerFrameWorkDelegate {
     func statusDidChange(captureStatus: CaptureStatus)
     func onStartRecord()
     func onFinishedRecord(fileURL: URL, position: AVCaptureDevice.Position)

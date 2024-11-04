@@ -33,7 +33,7 @@ public class RecordManager {
     public let audioRecordThread = DispatchQueue(label: "AudioRecord")
     
     public var captureStatus: CaptureStatus = .idle
-    public var recordManangerProtocol: RecordManangerProtocol?
+    public var recordManangerFrameWorkDelegate: RecordManangerFrameWorkDelegate?
     public var position: AVCaptureDevice.Position?
     
     public var didRequestFinish: Bool = false
@@ -118,8 +118,8 @@ public class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    public func setRecordManangerProtocol(recordManangerProtocol: RecordManangerProtocol) {
-        self.recordManangerProtocol = recordManangerProtocol
+    public func setRecordManangerFrameWorkDelegate(recordManangerFrameWorkDelegate: RecordManangerFrameWorkDelegate) {
+        self.recordManangerFrameWorkDelegate = recordManangerFrameWorkDelegate
     }
     
     ///
@@ -130,7 +130,7 @@ public class RecordManager {
     ///
     public func startVideoRecording () {
         self.captureStatus = .capturing
-        self.recordManangerProtocol?.onStartRecord()
+        self.recordManangerFrameWorkDelegate?.onStartRecord()
     }
     
     ///
@@ -163,7 +163,7 @@ public class RecordManager {
             self.frameCount = 0
             // writing 끝나고 작업할게 있으면 여기 추가.
             if let fileURL = self.fileURL, let position = self.position { // self.fileURL은 비디오 파일의 URL
-                self.recordManangerProtocol?.onFinishedRecord(fileURL: fileURL, position: position)
+                self.recordManangerFrameWorkDelegate?.onFinishedRecord(fileURL: fileURL, position: position)
             }
             
             // 2. assetWriter 초기화
@@ -331,7 +331,7 @@ extension RecordManager {
         let time = CMSampleBufferGetPresentationTimeStamp(sampleBuffer)
         
         
-        self.recordManangerProtocol?.statusDidChange(captureStatus: self.captureStatus)
+        self.recordManangerFrameWorkDelegate?.statusDidChange(captureStatus: self.captureStatus)
         self.position = position
         videoRecordThread.async {
             switch self.captureStatus {
@@ -357,7 +357,7 @@ extension RecordManager {
     }
     
     public func appendVideoQueue(pixelBuffer: CVPixelBuffer, time: CMTime, position: AVCaptureDevice.Position) {
-        self.recordManangerProtocol?.statusDidChange(captureStatus: self.captureStatus)
+        self.recordManangerFrameWorkDelegate?.statusDidChange(captureStatus: self.captureStatus)
         self.position = position
         videoRecordThread.async {
             switch self.captureStatus {
