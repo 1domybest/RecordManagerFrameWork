@@ -16,30 +16,34 @@ import UIKit
 /// - Parameters:
 /// - Returns:
 ///
-class RecordManager {
+public class RecordManager {
     
-    private var assetWriter: AVAssetWriter?
-    private var assetWriterPixelBufferInput: AVAssetWriterInputPixelBufferAdaptor!
-    private var assetWriterVideoInput: AVAssetWriterInput?
-    private var assetWriterAudioInput: AVAssetWriterInput?
-    private let fileManager = FileManager.default
-    private var fileURL: URL?
-    private var fileName: String = ""
-    private var atSourceTime:CMTime?
-    private var lastSourceTime:CMTime?
-    private var audioSampleBufferList: [CMSampleBuffer] = []
-    private var frameCount:Int64 = 0
-    private let videoRecordThread = DispatchQueue(label: "VideoRecord")
-    private let audioRecordThread = DispatchQueue(label: "AudioRecord")
+    public var assetWriter: AVAssetWriter?
+    public var assetWriterPixelBufferInput: AVAssetWriterInputPixelBufferAdaptor!
+    public var assetWriterVideoInput: AVAssetWriterInput?
+    public var assetWriterAudioInput: AVAssetWriterInput?
+    public let fileManager = FileManager.default
+    public var fileURL: URL?
+    public var fileName: String = ""
+    public var atSourceTime:CMTime?
+    public var lastSourceTime:CMTime?
+    public var audioSampleBufferList: [CMSampleBuffer] = []
+    public var frameCount:Int64 = 0
+    public let videoRecordThread = DispatchQueue(label: "VideoRecord")
+    public let audioRecordThread = DispatchQueue(label: "AudioRecord")
     
-    private var captureStatus: CaptureStatus = .idle
-    private var recordManangerProtocol: RecordManangerProtocol?
-    private var position: AVCaptureDevice.Position?
+    public var captureStatus: CaptureStatus = .idle
+    public var recordManangerProtocol: RecordManangerProtocol?
+    public var position: AVCaptureDevice.Position?
     
-    var didRequestFinish: Bool = false
+    public var didRequestFinish: Bool = false
     
     deinit {
         print("RecordManager deinit")
+    }
+    
+    public init() {
+        
     }
     ///
     /// 촬영전 AVAssetWriter 초기화 해주는 함수
@@ -47,7 +51,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func setRecordConfiguration () {
+    public func setRecordConfiguration () {
         
         let documentDirectory = fileManager.urls(for: .documentDirectory, in: .userDomainMask).first!
         fileName = UUID().uuidString + ".mp4"
@@ -114,7 +118,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func setRecordManangerProtocol(recordManangerProtocol: RecordManangerProtocol) {
+    public func setRecordManangerProtocol(recordManangerProtocol: RecordManangerProtocol) {
         self.recordManangerProtocol = recordManangerProtocol
     }
     
@@ -124,7 +128,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func startVideoRecording () {
+    public func startVideoRecording () {
         self.captureStatus = .capturing
         self.recordManangerProtocol?.onStartRecord()
     }
@@ -135,7 +139,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func stopVideoRecording () {
+    public func stopVideoRecording () {
         captureStatus = .end
     }
     
@@ -145,7 +149,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func finishVideoRecording () {
+    public func finishVideoRecording () {
         // 1. video, audio write 작업 종료
         if self.didRequestFinish {
             return
@@ -159,7 +163,6 @@ class RecordManager {
             self.frameCount = 0
             // writing 끝나고 작업할게 있으면 여기 추가.
             if let fileURL = self.fileURL, let position = self.position { // self.fileURL은 비디오 파일의 URL
-                self.saveVideoToPhotos(url: fileURL)
                 self.recordManangerProtocol?.onFinishedRecord(fileURL: fileURL, position: position)
             }
             
@@ -186,7 +189,7 @@ class RecordManager {
     ///    - time ( CMTime ) : SampleBuffer에 등록된 타임스탬프
     /// - Returns:
     ///
-    func appendVideoBuffer (pixelBuffer: CVPixelBuffer, time: CMTime) {
+    public func appendVideoBuffer (pixelBuffer: CVPixelBuffer, time: CMTime) {
         if self.atSourceTime == nil {
             self.atSourceTime = time
             assetWriter?.startSession(atSourceTime: self.atSourceTime!)
@@ -235,7 +238,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func takePhoto () {
+    public func takePhoto () {
         captureStatus = .takePhoto
     }
     
@@ -245,7 +248,7 @@ class RecordManager {
     /// - Parameters:
     /// - Returns:
     ///
-    func takePhoto (pixelBuffer: CVPixelBuffer) {
+    public func takePhoto (pixelBuffer: CVPixelBuffer) {
         if let image = createImage(from: pixelBuffer) {
                 saveImageToPhotos(image)
         }
@@ -259,7 +262,7 @@ class RecordManager {
     ///    - url ( URL ) : 촬영된 비디오의 경로
     /// - Returns:
     ///
-    func saveVideoToPhotos(url: URL) {
+    public func saveVideoToPhotos(url: URL) {
         PHPhotoLibrary.requestAuthorization { status in
             if status == .authorized {
                 PHPhotoLibrary.shared().performChanges({
@@ -284,7 +287,7 @@ class RecordManager {
     ///    - image ( image ) : 촬영된 사진
     /// - Returns:
     ///
-    func saveImageToPhotos(_ image: UIImage) {
+    public func saveImageToPhotos(_ image: UIImage) {
         PHPhotoLibrary.requestAuthorization { status in
             if status == .authorized {
                 UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
@@ -301,7 +304,7 @@ class RecordManager {
     ///    - pixelBuffer ( CVPixelBuffer ) : 저장할 사진에대한 CVPixelBuffer
     /// - Returns:
     ///
-    func createImage(from pixelBuffer: CVPixelBuffer) -> UIImage? {
+    public func createImage(from pixelBuffer: CVPixelBuffer) -> UIImage? {
         let ciImage = CIImage(cvPixelBuffer: pixelBuffer)
         let context = CIContext(options: nil)
         if let cgImage = context.createCGImage(ciImage, from: ciImage.extent) {
@@ -318,7 +321,16 @@ class RecordManager {
 /// - Returns:
 ///
 extension RecordManager {
-    func appendVideoQueue(pixelBuffer: CVPixelBuffer, time: CMTime, position: AVCaptureDevice.Position) {
+    
+    public func appendVideoQueue(sampleBuffer: CMSampleBuffer, position: AVCaptureDevice.Position) {
+        
+        guard var pixelBuffer = CMSampleBufferGetImageBuffer(sampleBuffer) else {
+              return
+          }
+        
+        let time = CMSampleBufferGetPresentationTimeStamp(sampleBuffer)
+        
+        
         self.recordManangerProtocol?.statusDidChange(captureStatus: self.captureStatus)
         self.position = position
         videoRecordThread.async {
@@ -344,7 +356,33 @@ extension RecordManager {
         }
     }
     
-    func appendAudioQueue(sampleBuffer: CMSampleBuffer) {
+    public func appendVideoQueue(pixelBuffer: CVPixelBuffer, time: CMTime, position: AVCaptureDevice.Position) {
+        self.recordManangerProtocol?.statusDidChange(captureStatus: self.captureStatus)
+        self.position = position
+        videoRecordThread.async {
+            switch self.captureStatus {
+            case .idle:
+                self.setRecordConfiguration()
+                break
+            case .start:
+                self.startVideoRecording()
+                break
+            case .capturing:
+                self.appendVideoBuffer(pixelBuffer: pixelBuffer, time: time)
+                break
+            case .takePhoto:
+                self.takePhoto(pixelBuffer: pixelBuffer)
+                break
+            case .end:
+                self.finishVideoRecording()
+                break
+            default:
+                break
+            }
+        }
+    }
+    
+    public func appendAudioQueue(sampleBuffer: CMSampleBuffer) {
         audioRecordThread.async {
             switch self.captureStatus {
             case .capturing:

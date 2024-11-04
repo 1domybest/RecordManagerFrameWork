@@ -18,6 +18,11 @@ import Foundation
 ///  - takePhoto : 사진촬영
 /// - Returns:
 ///
-enum CaptureStatus {
-        case idle, ready, start, capturing, end, takePhoto
+public enum CaptureStatus:String {
+    case idle = "idle"
+    case ready = "ready"
+    case start = "start"
+    case capturing = "capturing"
+    case end = "end"
+    case takePhoto = "takePhoto"
 }
