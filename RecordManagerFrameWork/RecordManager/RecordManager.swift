@@ -45,6 +45,7 @@ public class RecordManager {
     public init() {
         
     }
+    
     ///
     /// 촬영전 AVAssetWriter 초기화 해주는 함수
     ///
