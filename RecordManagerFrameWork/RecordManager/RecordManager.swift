@@ -9,7 +9,7 @@ import Foundation
 import AVFoundation
 import Photos
 import UIKit
-import LogManager
+
 /// Main Class For ``RecordManager``
 /// Base - [`AVFoundation`](https://developer.apple.com/documentation/avfoundation)
 public class RecordManager {
@@ -109,7 +109,6 @@ public class RecordManager {
     
     
     public init(recordOptions: RecordOptions) {
-        let _ = LogManager(projectName: "RecordManager")
         self.recordOptions = recordOptions
         let audioSession = AVAudioSession.sharedInstance()
         do {
