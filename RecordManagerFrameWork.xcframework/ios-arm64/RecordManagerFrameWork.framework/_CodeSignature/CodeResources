@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/LogManager.framework/Info.plist</key>
-		<data>
-		28YUJLk7OlA6cqbjtcu7/HzKS6Y=
-		</data>
-		<key>Frameworks/LogManager.framework/LogManager</key>
-		<data>
-		W2jOG8mZFHN4q57X1OD9sh8z6Kw=
-		</data>
-		<key>Frameworks/LogManager.framework/_CodeSignature/CodeResources</key>
-		<data>
-		D5WK19rjBUi+JGigRy897Vc76CQ=
-		</data>
 		<key>Headers/RecordManagerFrameWork.h</key>
 		<data>
 		4hjtDNFc/4+Mr/DFbL+/dTy52mU=
@@ -26,11 +14,11 @@
 		</data>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		C7lPOwyZVr0DNI+Pnp9aldso8aE=
+		l1WsTG778VNDSAf9ZL79UhXepw0=
 		</data>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		HkAeM4aB3tCcjVvWMnU3Vrb1Nmw=
+		Q2nv53KbfiwF968voUdZKltXu4E=
 		</data>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +26,11 @@
 		</data>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		HkAeM4aB3tCcjVvWMnU3Vrb1Nmw=
+		Q2nv53KbfiwF968voUdZKltXu4E=
 		</data>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kMdH7FgBZ5+tKcPq0qpA9hhOB4k=
+		VT0vrzn0+pd7DUDxPhklpNkWqP8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,27 +39,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/LogManager.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GCeKaZLhiyV4ib/mPXE6vfDwdY8B7egFE2qAmgbVkvM=
-			</data>
-		</dict>
-		<key>Frameworks/LogManager.framework/LogManager</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NzbRVzQ9YqAmyt5wLb9cLht7JlPvI1Yu2rkayP9RDWE=
-			</data>
-		</dict>
-		<key>Frameworks/LogManager.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JMDb5pcxnt2riW1gPFUQcSDgwAFFKhRFMWf/2xa5ajM=
-			</data>
-		</dict>
 		<key>Headers/RecordManagerFrameWork.h</key>
 		<dict>
 			<key>hash2</key>
@@ -83,14 +50,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tL1dmzQ0blcmbGujbULmGawARHNan8NT1f0FVXgd9NM=
+			/pUCpokToOyo7fqXkDNAQWExdtX0TiNy7XPo/ZZpzwU=
 			</data>
 		</dict>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rOoPrl8EU/+xjIYeh+C/M37Qvgu5lFHvy6Q3MkAAigs=
+			15kZWDAJiOepzjD28XkIx9c0pB3Lkxo2Jd6nghSt4LM=
 			</data>
 		</dict>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rOoPrl8EU/+xjIYeh+C/M37Qvgu5lFHvy6Q3MkAAigs=
+			15kZWDAJiOepzjD28XkIx9c0pB3Lkxo2Jd6nghSt4LM=
 			</data>
 		</dict>
 		<key>Modules/RecordManagerFrameWork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TYw/7NJb/zAS6wrmdonR6OSpcXRBmB1kDnFKJmKnMK8=
+			h7JDvPH9XvufoDYmYg7a497H1zolaBsF4E9uLAYaios=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

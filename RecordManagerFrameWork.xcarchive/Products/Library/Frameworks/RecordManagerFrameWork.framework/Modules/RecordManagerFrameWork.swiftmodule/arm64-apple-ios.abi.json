@@ -987,13 +987,6 @@
         "moduleName": "RecordManagerFrameWork"
       },
       {
-        "kind": "Import",
-        "name": "LogManager",
-        "printedName": "LogManager",
-        "declKind": "Import",
-        "moduleName": "RecordManagerFrameWork"
-      },
-      {
         "kind": "TypeDecl",
         "name": "RecordManager",
         "printedName": "RecordManager",
@@ -2348,49 +2341,49 @@
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 879,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "Array",
-      "offset": 1529,
+      "offset": 1512,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1595,
+      "offset": 1578,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "StringLiteral",
-      "offset": 1690,
+      "offset": 1673,
       "length": 13,
       "value": "\"VideoRecord\""
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "StringLiteral",
-      "offset": 1798,
+      "offset": 1781,
       "length": 13,
       "value": "\"AudioRecord\""
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1980,
+      "offset": 1963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
       "kind": "StringLiteral",
-      "offset": 3131,
+      "offset": 3057,
       "length": 6,
       "value": "\".mp4\""
     }
