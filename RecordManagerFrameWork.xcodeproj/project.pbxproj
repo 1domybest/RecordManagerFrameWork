@@ -9,16 +9,24 @@
 /* Begin PBXBuildFile section */
 		D143B0BE2CD8BB5C00EB2D8B /* RecordManagerFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = D143B0BC2CD8BB5C00EB2D8B /* RecordManagerFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D143B0C12CD8BB7C00EB2D8B /* RecordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143B0C02CD8BB7C00EB2D8B /* RecordManager.swift */; };
-		D143B0C52CD8BBA900EB2D8B /* RecordManangerFrameWorkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143B0C42CD8BBA900EB2D8B /* RecordManangerFrameWorkDelegate.swift */; };
+		D143B0C52CD8BBA900EB2D8B /* RecordManagerFrameWorkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143B0C42CD8BBA900EB2D8B /* RecordManagerFrameWorkDelegate.swift */; };
 		D143B0C72CD8BBC000EB2D8B /* CaptureStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D143B0C62CD8BBC000EB2D8B /* CaptureStatus.swift */; };
+		D1B19BD12CD9CA0A00D5EE4E /* RecordOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19BD02CD9CA0A00D5EE4E /* RecordOptions.swift */; };
+		D1B19BE92CD9D3B300D5EE4E /* RecordManagerInterFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19BE82CD9D3B300D5EE4E /* RecordManagerInterFace.swift */; };
+		D1B19BEB2CD9D3DB00D5EE4E /* RecordManagerUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19BEA2CD9D3DB00D5EE4E /* RecordManagerUtility.swift */; };
+		D1B19BED2CD9D45300D5EE4E /* RecordManagerProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B19BEC2CD9D45300D5EE4E /* RecordManagerProcess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D143B0B12CD8BB5500EB2D8B /* RecordManagerFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecordManagerFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D143B0BC2CD8BB5C00EB2D8B /* RecordManagerFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordManagerFrameWork.h; sourceTree = "<group>"; };
 		D143B0C02CD8BB7C00EB2D8B /* RecordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManager.swift; sourceTree = "<group>"; };
-		D143B0C42CD8BBA900EB2D8B /* RecordManangerFrameWorkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManangerFrameWorkDelegate.swift; sourceTree = "<group>"; };
+		D143B0C42CD8BBA900EB2D8B /* RecordManagerFrameWorkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManagerFrameWorkDelegate.swift; sourceTree = "<group>"; };
 		D143B0C62CD8BBC000EB2D8B /* CaptureStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureStatus.swift; sourceTree = "<group>"; };
+		D1B19BD02CD9CA0A00D5EE4E /* RecordOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordOptions.swift; sourceTree = "<group>"; };
+		D1B19BE82CD9D3B300D5EE4E /* RecordManagerInterFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManagerInterFace.swift; sourceTree = "<group>"; };
+		D1B19BEA2CD9D3DB00D5EE4E /* RecordManagerUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManagerUtility.swift; sourceTree = "<group>"; };
+		D1B19BEC2CD9D45300D5EE4E /* RecordManagerProcess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordManagerProcess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				D143B0C02CD8BB7C00EB2D8B /* RecordManager.swift */,
+				D1B19BE82CD9D3B300D5EE4E /* RecordManagerInterFace.swift */,
+				D1B19BEA2CD9D3DB00D5EE4E /* RecordManagerUtility.swift */,
+				D1B19BD02CD9CA0A00D5EE4E /* RecordOptions.swift */,
+				D1B19BEC2CD9D45300D5EE4E /* RecordManagerProcess.swift */,
 			);
 			path = RecordManager;
 			sourceTree = "<group>";
@@ -78,7 +90,7 @@
 		D143B0C32CD8BB9400EB2D8B /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				D143B0C42CD8BBA900EB2D8B /* RecordManangerFrameWorkDelegate.swift */,
+				D143B0C42CD8BBA900EB2D8B /* RecordManagerFrameWorkDelegate.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -167,8 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D143B0C72CD8BBC000EB2D8B /* CaptureStatus.swift in Sources */,
+				D1B19BEB2CD9D3DB00D5EE4E /* RecordManagerUtility.swift in Sources */,
+				D1B19BE92CD9D3B300D5EE4E /* RecordManagerInterFace.swift in Sources */,
+				D1B19BD12CD9CA0A00D5EE4E /* RecordOptions.swift in Sources */,
+				D1B19BED2CD9D45300D5EE4E /* RecordManagerProcess.swift in Sources */,
 				D143B0C12CD8BB7C00EB2D8B /* RecordManager.swift in Sources */,
-				D143B0C52CD8BBA900EB2D8B /* RecordManangerFrameWorkDelegate.swift in Sources */,
+				D143B0C52CD8BBA900EB2D8B /* RecordManagerFrameWorkDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
