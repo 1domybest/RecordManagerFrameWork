@@ -1,0 +1,69 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RecordManagerFrameWork
+import AVFoundation
+import Foundation
+import LogManager
+import Photos
+@_exported import RecordManagerFrameWork
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum CaptureStatus : Swift.String {
+  case idle
+  case ready
+  case start
+  case capturing
+  case end
+  case takePhoto
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension RecordManagerFrameWork.RecordManager {
+  public func setRecordOptions(recordOptions: RecordManagerFrameWork.RecordOptions)
+  public func setNewRecordFileInfo(filePath: Foundation.URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!, fileName: Swift.String = UUID().uuidString + ".mp4")
+  public func setRecordManagerFrameWorkDelegate(recordManagerFrameWorkDelegate: any RecordManagerFrameWork.RecordManagerFrameWorkDelegate)
+  public func startVideoRecording()
+  public func stopVideoRecording()
+  public func takePhoto()
+}
+public struct RecordOptions {
+  public var frameWidth: Swift.Int
+  public var frameHeight: Swift.Int
+  public var audioSampleRate: Swift.Int
+  public var format: Darwin.OSType
+  public var codec: AVFoundation.AVVideoCodecType
+  public init(frameWidth: Swift.Int = 720, frameHeight: Swift.Int = 1280, audioSampleRate: Swift.Int = 44100, format: Darwin.OSType = kCVPixelFormatType_32BGRA, codec: AVFoundation.AVVideoCodecType = AVVideoCodecType.h264)
+}
+extension RecordManagerFrameWork.RecordManager {
+  public func appendVideoQueue(sampleBuffer: CoreMedia.CMSampleBuffer, position: AVFoundation.AVCaptureDevice.Position)
+  public func appendVideoQueue(pixelBuffer: CoreVideo.CVPixelBuffer, time: CoreMedia.CMTime, position: AVFoundation.AVCaptureDevice.Position)
+  public func appendAudioQueue(sampleBuffer: CoreMedia.CMSampleBuffer)
+}
+public class RecordManager {
+  public var atSourceTime: CoreMedia.CMTime?
+  public var lastSourceTime: CoreMedia.CMTime?
+  public var captureStatus: RecordManagerFrameWork.CaptureStatus
+  public var recordManagerFrameWorkDelegate: (any RecordManagerFrameWork.RecordManagerFrameWorkDelegate)?
+  public var fileURL: Foundation.URL?
+  public var fileName: Swift.String
+  public var recordOptions: RecordManagerFrameWork.RecordOptions?
+  public init(recordOptions: RecordManagerFrameWork.RecordOptions)
+  @objc deinit
+  public func initialize(filePath: Foundation.URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!, fileName: Swift.String = UUID().uuidString + ".mp4")
+  public func unreference()
+}
+public protocol RecordManagerFrameWorkDelegate {
+  func statusDidChange(captureStatus: RecordManagerFrameWork.CaptureStatus)
+  func onStartRecord()
+  func onFinishedRecord(fileURL: Foundation.URL, position: AVFoundation.AVCaptureDevice.Position)
+  func tookPhoto(image: UIKit.UIImage)
+}
+extension RecordManagerFrameWork.CaptureStatus : Swift.Equatable {}
+extension RecordManagerFrameWork.CaptureStatus : Swift.Hashable {}
+extension RecordManagerFrameWork.CaptureStatus : Swift.RawRepresentable {}

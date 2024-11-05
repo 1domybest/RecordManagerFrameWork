@@ -1,0 +1,2398 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "RecordManagerFrameWork",
+    "printedName": "RecordManagerFrameWork",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CaptureStatus",
+        "printedName": "CaptureStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO4idleyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO4idleyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Var",
+            "name": "ready",
+            "printedName": "ready",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO5readyyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO5readyyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Var",
+            "name": "start",
+            "printedName": "start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO5startyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO5startyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Var",
+            "name": "capturing",
+            "printedName": "capturing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO9capturingyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO9capturingyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Var",
+            "name": "end",
+            "printedName": "end",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO3endyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO3endyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Var",
+            "name": "takePhoto",
+            "printedName": "takePhoto",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RecordManagerFrameWork.CaptureStatus.Type) -> RecordManagerFrameWork.CaptureStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CaptureStatus",
+                        "printedName": "RecordManagerFrameWork.CaptureStatus",
+                        "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO9takePhotoyA2CmF",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO9takePhotoyA2CmF",
+            "moduleName": "RecordManagerFrameWork"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RecordManagerFrameWork.CaptureStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO8rawValueACSgSS_tcfc",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO8rawValueACSgSS_tcfc",
+            "moduleName": "RecordManagerFrameWork",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork13CaptureStatusO8rawValueSSvp",
+            "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO8rawValueSSvp",
+            "moduleName": "RecordManagerFrameWork",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork13CaptureStatusO8rawValueSSvg",
+                "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO8rawValueSSvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:22RecordManagerFrameWork13CaptureStatusO",
+        "mangledName": "$s22RecordManagerFrameWork13CaptureStatusO",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordOptions",
+        "printedName": "RecordOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "frameWidth",
+            "printedName": "frameWidth",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV10frameWidthSivp",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV10frameWidthSivp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV10frameWidthSivg",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV10frameWidthSivg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV10frameWidthSivs",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV10frameWidthSivs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV10frameWidthSivM",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV10frameWidthSivM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frameHeight",
+            "printedName": "frameHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV11frameHeightSivp",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV11frameHeightSivp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV11frameHeightSivg",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV11frameHeightSivg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV11frameHeightSivs",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV11frameHeightSivs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV11frameHeightSivM",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV11frameHeightSivM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "audioSampleRate",
+            "printedName": "audioSampleRate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivp",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivg",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivs",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivM",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV15audioSampleRateSivM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "format",
+            "printedName": "format",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvp",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvg",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvs",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV6formats6UInt32Vvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV6formats6UInt32VvM",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV6formats6UInt32VvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "codec",
+            "printedName": "codec",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVVideoCodecType",
+                "printedName": "AVFoundation.AVVideoCodecType",
+                "usr": "c:@T@AVVideoCodecType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavp",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVVideoCodecType",
+                    "printedName": "AVFoundation.AVVideoCodecType",
+                    "usr": "c:@T@AVVideoCodecType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavg",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVVideoCodecType",
+                    "printedName": "AVFoundation.AVVideoCodecType",
+                    "usr": "c:@T@AVVideoCodecType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavs",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavM",
+                "mangledName": "$s22RecordManagerFrameWork0A7OptionsV5codecSo16AVVideoCodecTypeavM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frameWidth:frameHeight:audioSampleRate:format:codec:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordOptions",
+                "printedName": "RecordManagerFrameWork.RecordOptions",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "hasDefaultArg": true,
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVVideoCodecType",
+                "printedName": "AVFoundation.AVVideoCodecType",
+                "hasDefaultArg": true,
+                "usr": "c:@T@AVVideoCodecType"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22RecordManagerFrameWork0A7OptionsV10frameWidth0F6Height15audioSampleRate6format5codecACSi_S2is6UInt32VSo16AVVideoCodecTypeatcfc",
+            "mangledName": "$s22RecordManagerFrameWork0A7OptionsV10frameWidth0F6Height15audioSampleRate6format5codecACSi_S2is6UInt32VSo16AVVideoCodecTypeatcfc",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22RecordManagerFrameWork0A7OptionsV",
+        "mangledName": "$s22RecordManagerFrameWork0A7OptionsV",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "LogManager",
+        "printedName": "LogManager",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordManager",
+        "printedName": "RecordManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "atSourceTime",
+            "printedName": "atSourceTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C12atSourceTimeSo6CMTimeaSgvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lastSourceTime",
+            "printedName": "lastSourceTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreMedia.CMTime?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CMTime",
+                    "printedName": "CoreMedia.CMTime",
+                    "usr": "c:@SA@CMTime"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreMedia.CMTime?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CMTime",
+                        "printedName": "CoreMedia.CMTime",
+                        "usr": "c:@SA@CMTime"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C14lastSourceTimeSo6CMTimeaSgvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "captureStatus",
+            "printedName": "captureStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureStatus",
+                "printedName": "RecordManagerFrameWork.CaptureStatus",
+                "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CaptureStatus",
+                    "printedName": "RecordManagerFrameWork.CaptureStatus",
+                    "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0Ovs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0OvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13captureStatusAA07CaptureF0OvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recordManagerFrameWorkDelegate",
+            "printedName": "recordManagerFrameWorkDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any RecordManagerFrameWork.RecordManagerFrameWorkDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordManagerFrameWorkDelegate",
+                    "printedName": "any RecordManagerFrameWork.RecordManagerFrameWorkDelegate",
+                    "usr": "s:22RecordManagerFrameWork0abcD8DelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any RecordManagerFrameWork.RecordManagerFrameWorkDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordManagerFrameWorkDelegate",
+                        "printedName": "any RecordManagerFrameWork.RecordManagerFrameWorkDelegate",
+                        "usr": "s:22RecordManagerFrameWork0abcD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any RecordManagerFrameWork.RecordManagerFrameWorkDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordManagerFrameWorkDelegate",
+                        "printedName": "any RecordManagerFrameWork.RecordManagerFrameWorkDelegate",
+                        "usr": "s:22RecordManagerFrameWork0abcD8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C06recordbcD8DelegateAA0abcdF0_pSgvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileURL",
+            "printedName": "fileURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C7fileURL10Foundation0F0VSgvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileName",
+            "printedName": "fileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C8fileNameSSvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C8fileNameSSvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C8fileNameSSvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C8fileNameSSvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C8fileNameSSvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C8fileNameSSvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C8fileNameSSvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C8fileNameSSvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recordOptions",
+            "printedName": "recordOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RecordManagerFrameWork.RecordOptions?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordOptions",
+                    "printedName": "RecordManagerFrameWork.RecordOptions",
+                    "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvp",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvp",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RecordManagerFrameWork.RecordOptions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordOptions",
+                        "printedName": "RecordManagerFrameWork.RecordOptions",
+                        "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvg",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvg",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "RecordManagerFrameWork.RecordOptions?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecordOptions",
+                        "printedName": "RecordManagerFrameWork.RecordOptions",
+                        "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvs",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvs",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvM",
+                "mangledName": "$s22RecordManagerFrameWork0aB0C13recordOptionsAA0aF0VSgvM",
+                "moduleName": "RecordManagerFrameWork",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(recordOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecordManager",
+                "printedName": "RecordManagerFrameWork.RecordManager",
+                "usr": "s:22RecordManagerFrameWork0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordOptions",
+                "printedName": "RecordManagerFrameWork.RecordOptions",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22RecordManagerFrameWork0aB0C13recordOptionsAcA0aF0V_tcfc",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C13recordOptionsAcA0aF0V_tcfc",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(filePath:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C10initialize8filePath0F4Namey10Foundation3URLV_SStF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C10initialize8filePath0F4Namey10Foundation3URLV_SStF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unreference",
+            "printedName": "unreference()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C11unreferenceyyF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C11unreferenceyyF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRecordOptions",
+            "printedName": "setRecordOptions(recordOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordOptions",
+                "printedName": "RecordManagerFrameWork.RecordOptions",
+                "usr": "s:22RecordManagerFrameWork0A7OptionsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C03setA7Options06recordF0yAA0aF0V_tF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C03setA7Options06recordF0yAA0aF0V_tF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setNewRecordFileInfo",
+            "printedName": "setNewRecordFileInfo(filePath:fileName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C06setNewA8FileInfo8filePath0I4Namey10Foundation3URLV_SStF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C06setNewA8FileInfo8filePath0I4Namey10Foundation3URLV_SStF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setRecordManagerFrameWorkDelegate",
+            "printedName": "setRecordManagerFrameWorkDelegate(recordManagerFrameWorkDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RecordManagerFrameWorkDelegate",
+                "printedName": "any RecordManagerFrameWork.RecordManagerFrameWorkDelegate",
+                "usr": "s:22RecordManagerFrameWork0abcD8DelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C03setabcD8Delegate06recordbcdF0yAA0abcdF0_p_tF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C03setabcD8Delegate06recordbcdF0yAA0abcdF0_p_tF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVideoRecording",
+            "printedName": "startVideoRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C19startVideoRecordingyyF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C19startVideoRecordingyyF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopVideoRecording",
+            "printedName": "stopVideoRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C18stopVideoRecordingyyF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C18stopVideoRecordingyyF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "takePhoto",
+            "printedName": "takePhoto()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C9takePhotoyyF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C9takePhotoyyF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendVideoQueue",
+            "printedName": "appendVideoQueue(sampleBuffer:position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "usr": "c:@E@AVCaptureDevicePosition"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C16appendVideoQueue12sampleBuffer8positionySo08CMSampleI3Refa_So23AVCaptureDevicePositionVtF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C16appendVideoQueue12sampleBuffer8positionySo08CMSampleI3Refa_So23AVCaptureDevicePositionVtF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendVideoQueue",
+            "printedName": "appendVideoQueue(pixelBuffer:time:position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "usr": "c:@E@AVCaptureDevicePosition"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C16appendVideoQueue11pixelBuffer4time8positionySo11CVBufferRefa_So6CMTimeaSo23AVCaptureDevicePositionVtF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C16appendVideoQueue11pixelBuffer4time8positionySo11CVBufferRefa_So6CMTimeaSo23AVCaptureDevicePositionVtF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "appendAudioQueue",
+            "printedName": "appendAudioQueue(sampleBuffer:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0aB0C16appendAudioQueue12sampleBufferySo08CMSampleI3Refa_tF",
+            "mangledName": "$s22RecordManagerFrameWork0aB0C16appendAudioQueue12sampleBufferySo08CMSampleI3Refa_tF",
+            "moduleName": "RecordManagerFrameWork",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22RecordManagerFrameWork0aB0C",
+        "mangledName": "$s22RecordManagerFrameWork0aB0C",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RecordManagerFrameWork"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecordManagerFrameWorkDelegate",
+        "printedName": "RecordManagerFrameWorkDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "statusDidChange",
+            "printedName": "statusDidChange(captureStatus:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CaptureStatus",
+                "printedName": "RecordManagerFrameWork.CaptureStatus",
+                "usr": "s:22RecordManagerFrameWork13CaptureStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0abcD8DelegateP15statusDidChange13captureStatusyAA07CaptureJ0O_tF",
+            "mangledName": "$s22RecordManagerFrameWork0abcD8DelegateP15statusDidChange13captureStatusyAA07CaptureJ0O_tF",
+            "moduleName": "RecordManagerFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "sugared_genericSig": "<Self where Self : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onStartRecord",
+            "printedName": "onStartRecord()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0abcD8DelegateP07onStartA0yyF",
+            "mangledName": "$s22RecordManagerFrameWork0abcD8DelegateP07onStartA0yyF",
+            "moduleName": "RecordManagerFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "sugared_genericSig": "<Self where Self : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFinishedRecord",
+            "printedName": "onFinishedRecord(fileURL:position:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Position",
+                "printedName": "AVFoundation.AVCaptureDevice.Position",
+                "usr": "c:@E@AVCaptureDevicePosition"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0abcD8DelegateP010onFinishedA07fileURL8positiony10Foundation0I0V_So23AVCaptureDevicePositionVtF",
+            "mangledName": "$s22RecordManagerFrameWork0abcD8DelegateP010onFinishedA07fileURL8positiony10Foundation0I0V_So23AVCaptureDevicePositionVtF",
+            "moduleName": "RecordManagerFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "sugared_genericSig": "<Self where Self : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "tookPhoto",
+            "printedName": "tookPhoto(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22RecordManagerFrameWork0abcD8DelegateP9tookPhoto5imageySo7UIImageC_tF",
+            "mangledName": "$s22RecordManagerFrameWork0abcD8DelegateP9tookPhoto5imageySo7UIImageC_tF",
+            "moduleName": "RecordManagerFrameWork",
+            "genericSig": "<τ_0_0 where τ_0_0 : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "sugared_genericSig": "<Self where Self : RecordManagerFrameWork.RecordManagerFrameWorkDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22RecordManagerFrameWork0abcD8DelegateP",
+        "mangledName": "$s22RecordManagerFrameWork0abcD8DelegateP",
+        "moduleName": "RecordManagerFrameWork",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 6,
+      "value": "\"idle\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 7,
+      "value": "\"ready\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 7,
+      "value": "\"start\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 493,
+      "length": 11,
+      "value": "\"capturing\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 5,
+      "value": "\"end\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/Enum\/CaptureStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 547,
+      "length": 11,
+      "value": "\"takePhoto\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManagerInterFace.swift",
+      "kind": "StringLiteral",
+      "offset": 1175,
+      "length": 6,
+      "value": "\".mp4\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 381,
+      "length": 3,
+      "value": "720"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 413,
+      "length": 4,
+      "value": "1280"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 5,
+      "value": "44100"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "StringLiteral",
+      "offset": 896,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "Array",
+      "offset": 1529,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1595,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 13,
+      "value": "\"VideoRecord\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1798,
+      "length": 13,
+      "value": "\"AudioRecord\""
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1980,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/onseoktae\/Documents\/GitHub\/CameraManager\/RecordManagerFrameWork\/RecordManagerFrameWork\/RecordManager\/RecordManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3131,
+      "length": 6,
+      "value": "\".mp4\""
+    }
+  ]
+}

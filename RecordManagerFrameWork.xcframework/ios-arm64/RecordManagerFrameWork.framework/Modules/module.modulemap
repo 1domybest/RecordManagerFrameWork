@@ -1,0 +1,6 @@
+framework module RecordManagerFrameWork {
+  umbrella header "RecordManagerFrameWork.h"
+  export *
+
+  module * { export * }
+}
