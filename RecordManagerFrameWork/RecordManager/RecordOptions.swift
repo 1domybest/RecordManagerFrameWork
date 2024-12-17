@@ -9,10 +9,19 @@ import Foundation
 import AVFoundation
 
 public struct RecordOptions {
+    /// width size of frame
     public var frameWidth: Int
+    
+    /// height size of frame
     public var frameHeight: Int
+    
+    /// audio sample rate
     public var audioSampleRate: Int
+    
+    /// buffer format type
     public var format: OSType
+    
+    /// codec type
     public var codec: AVVideoCodecType
     
     public init(
